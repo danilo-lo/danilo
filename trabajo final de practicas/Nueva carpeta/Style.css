@@ -5,7 +5,6 @@
     position: fixed;
     background-color: #F4EBE0;
     justify-content: space-between;
-    height: 100px;
     display: flex;
 }
 .titulo{
