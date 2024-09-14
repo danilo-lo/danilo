@@ -1,26 +1,50 @@
+:root{
+    --header-height: 100px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #03350f;
+}
 .header{
     width: 100%;
+    height: var(--header-height);
     margin: 0;
     padding: 0;
     position: fixed;
-    background-color: #F4EBE0;
+    background-color: #03350f;
     justify-content: space-between;
     display: flex;
 }
 .titulo{
     padding-left: 30px;
-    padding-top:30px ;
+    padding-top:28px ;
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
+    font-size: 45px;
+    
+}
+.titulo a{
+    color: white;
+    text-decoration: none;
 }
 .nav-bar{
     display: flex;
     gap: 15px;
     padding-right: 30px;
     padding-top: 30px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
 }
 .nav-bar a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
+.Contenido{
+    padding-top: calc(var(--header-height) + 20px);
+    background-color: #02240a;
+    }
