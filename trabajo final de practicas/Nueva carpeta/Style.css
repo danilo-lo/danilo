@@ -1,0 +1,27 @@
+.header{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    background-color: #F4EBE0;
+    justify-content: space-between;
+    height: 100px;
+    display: flex;
+}
+.titulo{
+    padding-left: 30px;
+    padding-top:30px ;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.nav-bar{
+    display: flex;
+    gap: 15px;
+    padding-right: 30px;
+    padding-top: 30px;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: black;
+}
