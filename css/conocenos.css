@@ -27,7 +27,7 @@ body {
     color: white;
     
 }
-.titulo{
+.titulo {
     padding-left: 30px;
     padding-top:28px ;
     font-family: "Playfair Display", serif;
@@ -87,7 +87,7 @@ border:solid #000;
     margin: 0;
     padding: 0;
     position: fixed;
-    background-color: #F4EBE0;
+    background-color: #bdb7b0;
     justify-content: space-between;
     height: 100px;
     display: flex;
@@ -101,7 +101,7 @@ border:solid #000;
 }
 .Contenido{
     padding-top: calc(var(--header-height) + 20px);
-    background-color:  #bdb7b0;
+    background-color:  #F4EBE0;
 }
 table {
     margin-left: 19px;/*mueve el cuadro*/
