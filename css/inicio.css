@@ -78,10 +78,15 @@ body {
     padding-bottom: 30px;
 }
 table{
-    width: 20%;
-    border: 2px solid black;
-    margin: auto;
+    
 }
 .reservados{
     margin-left: 55px ;
+}
+
+.GoogleMaps{
+    background-color: blue;
+}
+.footerContacto{
+    padding-left: 50%;
 }
