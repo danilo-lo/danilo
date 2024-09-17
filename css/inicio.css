@@ -12,14 +12,15 @@ body {
     margin: 0;
     padding: 0;
     position: fixed;
-    background-color: #bdb7b0;
+    background-color: #F4EBE0;
     justify-content: space-between;
     display: flex;
-    /*box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);*/
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    z-index: 99;
 }
 .titulo{
-    padding-left: 30px;
-    padding-top:28px ;
+    padding-left: 3vw;
+    padding-top:1vw ;
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -28,15 +29,15 @@ body {
     
 }
 .titulo a{
-    color: white;
+    color: black;
     text-decoration: none;
     
 }
 .nav-bar{
     display: flex;
     gap: 20px;
-    padding-right: 30px;
-    padding-top: 30px;
+    padding-right: 3vw;
+    padding-top: 1.5vw;
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -45,7 +46,7 @@ body {
 }
 .nav-bar a{
     text-decoration: none;
-    color: white;
+    color: #797572;
     
 }
 .Contenido{
@@ -54,10 +55,11 @@ body {
     }
 .TituloInicio{
     text-align: left;
-    padding-left: 30px;
-    font-family: "Bebas Neue", sans-serif;
+    padding-left: 3vw;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-style: normal;
+    color: black;
 }
 .FondoImagenes{
     padding: 50px;
@@ -68,6 +70,8 @@ body {
     margin-left: 3%;
     height: 50%;
     justify-content: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 .ReenvioAProductos{
     text-align: center;
@@ -77,16 +81,37 @@ body {
     margin-left: 3%;
     padding-bottom: 30px;
 }
-table{
-    
-}
+
 .reservados{
     margin-left: 55px ;
 }
-
-.GoogleMaps{
-    background-color: blue;
+.boxcontainer{
+    display: flex;
+    gap: 10px;
+    margin-left: 3%;
+    margin-right: 3%;
 }
-.footerContacto{
-    padding-left: 50%;
+.card{
+    width: 1000px;
+    height: 80%;
+    display: grid;
+    grid-template-rows: minmax(100%,1fr);
+    grid-template-areas: "stack";
+    overflow: hidden;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+.card img, .card figcaption{
+    grid-area: stack;
+}
+.card img{
+    width: 100%;
+    height: 100%;
+    background-image: cover;
+}
+.card figcaption{
+    background-color:#F4EBE0;
+    transform: translateY(calc(100%-4rem));
+    transition: transform 0.6s;
+    text-align: center;
 }
