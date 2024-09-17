@@ -51,4 +51,5 @@ body {
 .Contenido{
     padding-top: calc(var(--header-height) + 20px);
     background-color: #F4EBE0;
+    
     }

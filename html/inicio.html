@@ -14,25 +14,25 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
     <title>ALP|Inicio</title>
 </head>
-<body style="background-color:#02240a ;">
-    <div class="header">
-        <div>
+<body>
+    <header class="header">
+        <!--<div class="logo">
+            <img src="" alt="Logo de la empresa">
+        </div>!-->
         <h1 class="titulo">
             <a href="inicio.html" >Aperturas Los Portones</a>
         </h1>
-        </div>
         <strong>
-        <div class="nav-bar">
-            <a href="Producto.html">Producto</a>
-            <a href="Proveedores.html">Proveedores</a>
-            <a href="conocenos.html">Conocenos</a>
-            <a href="Contacto.html">Contacto</a>
-        
-        </div>
+        <nav class="nav-bar">
+            <a href="Producto.html" class="BotonNav">Producto</a>
+            <a href="Proveedores.html" class="BotonNav">Proveedores</a>
+            <a href="conocenos.html" class="BotonNav">Conocenos</a>
+            <a href="Contacto.html" class="BotonNav">Contacto</a>
+        </nav>
         </strong>
-    </div>
+    </header>
     <div class="Contenido">
-        <div class="TituloInicio"><h1 style="color: #797572; text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);";>Pagina Principal</h1></div>  
+        <div class="TituloInicio"><h1 style="color: #797572;";>Pagina Principal</h1></div>  
         <!--<div class="FondoImagenes">
             <div>
             <img src="/img/descarga.jpg" alt="YSY1" style="height: 700px; width:100%;">
@@ -54,27 +54,27 @@
         <div class="FondoImagenes">
         <div class="boxcontainer" style="justify-content: center; width: 100%; background-color: white;">
             <figure class="card">
-                <img src="/img/descarga.jpg" alt="Ysyaaa" style="height: 700px;">
+                <img src="/img/Ventana.jpg" alt="Ventana" style="height: 700px; object-fit: cover;">
                 <figcaption>
-                    <h3>YSYAA</h3>
+                    <h3>Ventanas</h3>
                 </figcaption>
             </figure>
             <figure class="card">
-                <img src="/img/ENhg0Bki_400x400.jpg" alt="Ysyaaa2">
+                <img src="/img/Porton.jpg" alt="Porton" style="height: 700px; object-fit: cover;">
                 <figcaption>
-                    <h3>ysyaa2</h3>
+                    <h3>Portones</h3>
                 </figcaption>
             </figure>
             <figure class="card">
-                <img src="/img/YSY-A.png" alt="ysyaaa3">
+                <img src="/img/YSY-A.png" alt="YSYABEBEE" style="height: 700px; object-fit: cover;">
                 <figcaption>
-                    <h3>ysyaa3</h3>
+                    <h3>Ysy a</h3>
                 </figcaption>
             </figure>
             <figure class="card">
-                <img src="/img/ysya-discografia-ysysmo.jpg" alt="ysyaaa4">
+                <img src="/img/duko.jpg" alt="Duko" style="height: 700px; object-fit: cover;">
                 <figcaption>
-                    <h3>ysyaaa4</h3>
+                    <h3>Duko</h3>
                 </figcaption>
             </figure>
         </div>
@@ -116,6 +116,15 @@
             </div>
         </div>
     </footer>
-    
+    <script>
+        document.addEventListener('scroll',()=>{
+            const header =document.querySelector('header');
+            console.log(header)
+            if(window.scrollY > 0){
+                header.classList.add('scrolled');
+            } else{header.classList.remove('scrolled');
+        }
+        })
+    </script>
 </body>
 </html>
