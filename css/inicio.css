@@ -41,24 +41,24 @@ header.scrolled{
     color: #797572;
     transition: color 0.4s ease-in-out;
 }
-
 header.scrolled .nav-bar a{
     color: white;
 }
-/*.custom-btn{
-    background-color: #797572 ;
+#dropdownMenuButton2{
+    background-color: #F4EBE0;
     font-family: "playfair display",serif;
     font-weight: 400;
     font-style: normal;
     font-size: 30px;
-    color: black;
+    color: #797572;
 }
-.custom-btn:hover{
-    background-color: #555250;
-}
-.custom-btn.scrolled{
+#dropdownMenuButton2:hover{
+    background-color:#555250;
     color: white;
-}*/
+}
+#dropdownMenuButton2.scrolled{
+    background-color: red;
+}
 .titulo{
     padding-left: 3vw;
     padding-top:1vw ;
