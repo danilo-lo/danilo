@@ -8,6 +8,7 @@ body {
     margin: 0;
     padding: 0;
 }
+/*Header*/
 header{
     display: flex;
     height: 100px;
@@ -25,6 +26,27 @@ header.scrolled{
     opacity: 0.98;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
+/*Titulo*/
+.titulo{
+    padding-left: 3vw;
+    padding-top:1vw ;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 45px;
+    
+}
+.titulo a{
+    color: #797572;
+    text-decoration: none;
+}
+header.scrolled .titulo a{
+    color:white;
+    transition: color 0.4s ease-in-out;
+    
+}
+/*Barra de navegacion*/
 .nav-bar{
     display: flex;
     gap: 20px;
@@ -44,7 +66,17 @@ header.scrolled{
 header.scrolled .nav-bar a{
     color: white;
 }
-#dropdownMenuButton2{
+.BotonNav:hover{
+    color: #F4EBE0;
+    background-color: #797572;
+    border-radius: 8px;
+    ;
+}
+.BotonNav:active{
+    color: #F4EBE0;
+    background-color: #797572;
+}
+/*#dropdownMenuButton2{
     background-color: #F4EBE0;
     font-family: "playfair display",serif;
     font-weight: 400;
@@ -68,32 +100,13 @@ header.scrolled #dropdownMenuButton2{
 }
 header.scrolled #dropdownMenuButton2:hover{
     background-color:#797572;
-}
-.titulo{
-    padding-left: 3vw;
-    padding-top:1vw ;
-    font-family: "Playfair Display", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 45px;
-    
-}
-.titulo a{
-    color: #797572;
-    text-decoration: none;
-}
-header.scrolled .titulo a{
-    color:white;
-    transition: color 0.4s ease-in-out;
-    
-}
+}*/
+/*Contenido*/
 .Contenido{
     background-color: #F4EBE0;
     }
 .TituloInicio{
     text-align: center;
-
     font-family: "Playfair Display", serif;
     font-weight: 400;
     font-style: normal;
@@ -119,28 +132,12 @@ header.scrolled .titulo a{
     margin-left: 3%;
     padding-bottom: 30px;
 }
-
-.reservados{
-    margin-left: 55px ;
-}
+/*Aca van almacenadas las imagenes del inicio*/
 .boxcontainer{
     display: flex;
     gap: 10px;
     margin-left: 3%;
     margin-right: 3%;
-}
-.card{
-    width: 1000px;
-    height: 80%;
-    display: grid;
-    grid-template-rows: minmax(100%,1fr);
-    grid-template-areas: "stack";
-    overflow: hidden;
-    border: 3px solid black;
-    border-radius: 20px;
-}
-.card img, .card figcaption{
-    grid-area: stack;
 }
 .card img{
     width: 100%;
@@ -152,15 +149,4 @@ header.scrolled .titulo a{
     transform: translateY(calc(100%-4rem));
     transition: transform 0.6s;
     text-align: center;
-}
-
-.BotonNav:hover{
-    color: #F4EBE0;
-    background-color: #797572;
-    border-radius: 8px;
-    ;
-}
-.BotonNav:active{
-    color: #F4EBE0;
-    background-color: #797572;
 }
