@@ -39,14 +39,14 @@ body {
 }
 .titulo a{
     color: white;
-    text-decoration: none;
-    
+    text-decoration: none;   
 }
 h2{
-text-align: left;
-padding: 10px;
-color: black; 
-text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black
 }
 .Conocenos{
     text-align: left;
@@ -87,7 +87,7 @@ border:solid #000;
     margin: 0;
     padding: 0;
     position: fixed;
-    background-color: #bdb7b0;
+    background-color: black;
     justify-content: space-between;
     height: 100px;
     display: flex;
@@ -101,7 +101,7 @@ border:solid #000;
 }
 .Contenido{
     padding-top: calc(var(--header-height) + 20px);
-    background-color:  #F4EBE0;
+    background-color:  rgb(60, 102, 60);
 }
 table {
     margin-left: 19px;/*mueve el cuadro*/
@@ -111,7 +111,7 @@ table {
 th, td {
     background-color: #ac6815;
     border: 1px solid #000; /* Borde alrededor de las celdas */
-    padding: 16px; /* Espacio dentro de las celdas */
+    padding: 1px; /* Espacio dentro de las celdas */
     text-align: left; /* Alineación del texto */
 }
 th {
@@ -120,4 +120,12 @@ th {
 .contenido2 {
     font-size: 14px; /* Tamaño del texto */
     border:solid #000;
+    padding: 30px;
+}
+h3{
+    text-align: left;
+}
+.img2{
+    width: 10%;
+    height: 10%;
 }
