@@ -101,15 +101,15 @@ border:solid #000;
 }
 .Contenido{
     padding-top: calc(var(--header-height) + 20px);
-    background-color:  rgb(60, 102, 60);
+    background-color:  rgb(125, 133, 125); /* color de fondo*/
 }
 table {
-    margin-left: 19px;/*mueve el cuadro*/
-    width: 98%; /* Ajusta el ancho de la tabla al 100% del contenedor */
+    margin-left: 59px;/*mueve el cuadro*/
+    width: 91%; /* Ajusta el ancho de la tabla al 100% del contenedor */
     border-collapse: collapse; /* Colapsa los bordes para evitar bordes dobles */
 }
 th, td {
-    background-color: #ac6815;
+    background-color: #487256;/* color de la tablas*/
     border: 1px solid #000; /* Borde alrededor de las celdas */
     padding: 1px; /* Espacio dentro de las celdas */
     text-align: left; /* Alineación del texto */
@@ -126,6 +126,37 @@ h3{
     text-align: left;
 }
 .img2{
-    width: 10%;
-    height: 10%;
+    width: 15%;
+    height: 15%;
+    padding-bottom: 5px;
+    margin-left: 100px;
+
+}
+.aluminio{
+position:relative;
+bottom: 94px; 
+}
+.vidrio{
+    position:relative;
+    bottom: 53px;
+}
+.ventana{
+    position:relative;
+    bottom: 105px;
+}
+p{
+  text-align: left;
+  color: rgb(221, 221, 138);
+}
+.parrafo1{
+position: relative;
+top: 60px;
+}
+.parrafo2{
+    position: relative;
+    top: 90px;
+}
+.parrafo3{
+    position: relative;
+    top: 110px;
 }
