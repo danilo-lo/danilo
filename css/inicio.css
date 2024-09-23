@@ -16,13 +16,13 @@ header{
     padding: 0;
     position: sticky;
     top:0;
-    background-color: #F4EBE0;
+    background-color: #588157;
     justify-content: space-between;
     transition:background-color 0.4s ease-in-out;
     z-index: 99;
 }
 header.scrolled{
-    background-color: #555250;
+    background-color: #344E41;
     opacity: 0.98;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
@@ -38,7 +38,7 @@ header.scrolled{
     
 }
 .titulo a{
-    color: #797572;
+    color: #DAD7CD;
     text-decoration: none;
 }
 header.scrolled .titulo a{
@@ -60,7 +60,7 @@ header.scrolled .titulo a{
 }
 .nav-bar a{
     text-decoration: none;
-    color: #797572;
+    color: #DAD7CD;
     transition: color 0.4s ease-in-out;
 }
 header.scrolled .nav-bar a{
@@ -68,9 +68,9 @@ header.scrolled .nav-bar a{
 }
 .BotonNav:hover{
     color: #F4EBE0;
-    background-color: #797572;
+    background-color: #344E41;
     border-radius: 8px;
-    ;
+    transition: background-color 0.4s ease-in-out;
 }
 .BotonNav:active{
     color: #F4EBE0;
@@ -103,7 +103,7 @@ header.scrolled #dropdownMenuButton2:hover{
 }*/
 /*Contenido*/
 .Contenido{
-    background-color: #F4EBE0;
+    background-color: #588157;
     }
 .TituloInicio{
     text-align: center;
@@ -116,7 +116,7 @@ header.scrolled #dropdownMenuButton2:hover{
     padding: 50px;
     gap: 10px;
     display: flex;
-    background-color: white;
+    background-color: #3A5A40;
     margin-right: 3%;
     margin-left: 3%;
     height: 50%;
@@ -127,7 +127,7 @@ header.scrolled #dropdownMenuButton2:hover{
 .ReenvioAProductos{
     text-align: center;
     font-size: 30px;
-    background-color: white;
+    background-color: #3A5A40;
     margin-right: 3%;
     margin-left: 3%;
     padding-bottom: 30px;
