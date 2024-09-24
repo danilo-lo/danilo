@@ -68,6 +68,9 @@ h2{
     height: 100%;
     object-fit: cover;
 }
+.local{
+    
+}
 .texto {
     position: absolute;
     top: 50%;
@@ -101,7 +104,7 @@ border:solid #000;
 }
 .Contenido{
     padding-top: calc(var(--header-height) + 20px);
-    background-color:  rgb(125, 133, 125); /* color de fondo*/
+    background-color:  rgb(39, 41, 39); /* color de fondo*/
 }
 table {
     margin-left: 59px;/*mueve el cuadro*/
@@ -120,14 +123,15 @@ th {
 .contenido2 {
     font-size: 14px; /* Tamaño del texto */
     border:solid #000;
-    padding: 30px;
+    padding: 10px;
+    height: 10px;
 }
 h3{
     text-align: left;
 }
 .img2{
-    width: 15%;
-    height: 15%;
+    width: 19%;
+    height: 13%;
     padding-bottom: 5px;
     margin-left: 100px;
 
@@ -160,3 +164,31 @@ top: 60px;
     position: relative;
     top: 110px;
 }
+/*para el cuadro interntar solo ajustar el pading y que el texto quede centrano con titulo y imagen*/
+/*a partir de aca es el cuadro de abajo.*/
+.contenedor2{
+    display: grid;                     /* definimos los tamaños de las columnas y las filas del mismo. Esto significa que,  tendríamos una cuadricula o grid de 4 celdas en total:*/
+    grid-template-columns: repeat(4, 1fr); /* 4 columnas iguales */
+    gap: 1px;                         /* Espacio entre cuadros. El gap en CSS es un espacio entre elementos flexbox, utilizando propiedades como gap y grid-gap para establecer separaciones visuales personalizadas y limpias. */
+    padding: 110px;                     /* Espaciado interno */
+}
+
+.cuadro2{
+    padding: 0px;                     /* Espaciado interno */
+    box-sizing: border-box;            /* Incluye el padding en el tamaño total. esto me salvo la vida. */
+    border: 2px solid #487256 ;            /* Borde */
+    /*border-radius: 10px;                Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra */
+    background-color:#487256;         /* Color de fondo */
+    color: #333;                       /* Color del texto */
+}
+
+.cuadro2 h2{
+    text-align: center;                 /* Centrar el título */
+    margin: 0;                         /* Eliminar margen por defecto */
+}
+
+.cuadro2 p{
+    text-align: justify;                /* Justificar el contenido */
+}
+
