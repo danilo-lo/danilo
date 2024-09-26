@@ -7,6 +7,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+background-color: #F4EBE0;
 }
 /*Header*/
 header{
@@ -87,7 +88,7 @@ aside{
 }
 #filter-buttons button {
     border-radius: 3px;
-    background: #fff;
+    background: #F4EBE0;
     border-color: transparent;
     display: block;
     min-width: 100%;
@@ -97,7 +98,7 @@ aside{
   }
   #filter-buttons button.active {
     color: #fff;
-    background: red;
+    background: #a59f98;
   }
   #filterable-cards .card {
     width: 15rem;
