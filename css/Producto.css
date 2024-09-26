@@ -7,7 +7,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-background-color: #F4EBE0;
+    background-color:#588157;
 }
 /*Header*/
 header{
@@ -17,7 +17,7 @@ header{
     padding: 0;
     position: sticky;
     top:0;
-    background-color: #F4EBE0;
+    background-color: #588157;
     justify-content: space-between;
     transition:background-color 0.4s ease-in-out;
     z-index: 99;
@@ -39,7 +39,7 @@ header.scrolled{
     
 }
 .titulo a{
-    color: #797572;
+    color: #DAD7CD;
     text-decoration: none;
 }
 header.scrolled .titulo a{
@@ -61,7 +61,7 @@ header.scrolled .titulo a{
 }
 .nav-bar a{
     text-decoration: none;
-    color: #797572;
+    color: #DAD7CD;
     transition: color 0.4s ease-in-out;
 }
 header.scrolled .nav-bar a{
@@ -79,39 +79,19 @@ header.scrolled .nav-bar a{
 }
 /*Contenido*/
 .Contenido{
-    background-color: #F4EBE0;
+    background-color: #588157;
+}
+.Productos{
+    background-color: #344E41;
+    padding: 20px;
+    
+    margin-right: 10%;
+    margin-left: 10%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
 }
 aside{
     float: left;
-    display: block;
-    
+    margin-left: 10px;
 }
-#filter-buttons button {
-    border-radius: 3px;
-    background: #F4EBE0;
-    border-color: transparent;
-    display: block;
-    min-width: 100%;
-  }
-  #filter-buttons button:hover {
-    background: #ddd;
-  }
-  #filter-buttons button.active {
-    color: #fff;
-    background: #a59f98;
-  }
-  #filterable-cards .card {
-    width: 15rem;
-    border: 2px solid transparent;
-  }
-  #filterable-cards .card.hide {
-    display: none;
-  }
-  @media (max-width: 600px) {
-    #filterable-cards {
-      justify-content: center;
-    }
-    #filterable-cards .card {
-      width: calc(100% / 2 - 10px);
-    }
-  }
