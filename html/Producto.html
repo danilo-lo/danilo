@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/Producto.css">
+    <script src="/html/producto.js" defer></script>
     <title>Producto</title>
 </head>
 <body>
@@ -35,20 +36,77 @@
         <div class="subtitulo">
             <h1 style="font-family: playFair,Display; text-align: center;">Productos Y Servicios</h1>
         </div>
+        <aside class="filtroProductos">
+            <div class="row mt-5" id="filter-buttons">
+                <div class="col-12">
+                  <button class="btn mb-2 me-1 active" data-filter="all">Mostrar Todo</button>
+                  <button class="btn mb-2 mx-1" data-filter="ventanas">Ventanas</button>
+                  <button class="btn mb-2 mx-1" data-filter="Portones">Portones</button>
+                  <button class="btn mb-2 mx-1" data-filter="Puertas">Puertas</button>
+                </div>
+              </div>
+        </aside>
         <div class="Productos">
-            <div class="card">
-                <img src="/img/YSY-A.png" alt="" style="height: 400px; width: 400px;">
-            </div>
-            <div class="card">
-                <img src="/img/YSY-A.png" alt="" style="height: 400px; width: 400px">
-            </div>
-            <div class="card">
-                <img src="/img/YSY-A.png" alt="" style="height: 400px; width: 400px;">
-            </div>
-            <div class="card">
-                <img src="/img/YSY-A.png" alt="" style="height: 400px; width: 400px;">
-            </div>
-        </div>
+                <!-- Filterable Images / Cards Section -->
+                <div class="row px-2 mt-4 gap-3" id="filterable-cards">
+                  <div class="card p-0" data-name="ventanas">
+                    <img src="/img/YSY-A.png" alt="img">
+                    <div class="card-body">
+                      <h6 class="card-title">ysysmo</h6>
+                      <p class="card-text">vivan las tetas</p>
+                    </div>
+                  </div>
+                  <div class="card p-0" data-name="ventanas">
+                    <img src="/img/YSY-A.png" alt="img">
+                    <div class="card-body">
+                      <h6 class="card-title">ysysmo2</h6>
+                      <p class="card-text">vivan las tetas 2</p>
+                    </div>
+                  </div>
+                  <div class="card p-0" data-name="ventanas">
+                    <img src="/img/YSY-A.png" alt="img">
+                    <div class="card-body">
+                      <h6 class="card-title">Nature</h6>
+                      <p class="card-text">Lorem ipsum dolor..</p>
+                    </div>
+                  </div>
+                  <div class="card p-0" data-name="Portones">
+                    <img src="/img/duko.jpg" alt="img">
+                    <div class="card-body">
+                      <h6 class="card-title">duko</h6>
+                      <p class="card-text">relaciones sexuales</p>
+                    </div>
+                  </div>
+                  <div class="card p-0" data-name="Portones">
+                    <img src="/img/duko.jpg" alt="img">
+                    <div class="card-body">
+                      <h6 class="card-title">duketo</h6>
+                      <p class="card-text">sexito</p>
+                    </div>
+                  </div>
+                  <div class="card p-0" data-name="Portones">
+                    <img src="/img/duko.jpg" alt="img">
+                    <div class="card-body">
+                      <h6 class="card-title">Dukito</h6>
+                      <p class="card-text">Sexo</p>
+                    </div>
+                  </div>
+                  <div class="card p-0" data-name="Puertas">
+                    <img src="/img/tyler.webp" alt="img">
+                    <div class="card-body">
+                      <h6 class="card-title">tyler el maldito creador</h6>
+                      <p class="card-text">nword</p>
+                    </div>
+                  </div>
+                  <div class="card p-0" data-name="Puertas">
+                    <img src="/img/tyler.webp" alt="img">
+                    <div class="card-body">
+                      <h6 class="card-title">tyler</h6>
+                      <p class="card-text">si</p>
+                    </div>
+                  </div>
+                </div>
+              </div>          
     </div>
 </body>
 </html>
