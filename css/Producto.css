@@ -82,18 +82,22 @@ header.scrolled .nav-bar a{
 }
 aside{
     float: left;
+    display: block;
+    
 }
 #filter-buttons button {
     border-radius: 3px;
     background: #fff;
     border-color: transparent;
+    display: block;
+    min-width: 100%;
   }
   #filter-buttons button:hover {
     background: #ddd;
   }
   #filter-buttons button.active {
     color: #fff;
-    background: #6c757d;
+    background: red;
   }
   #filterable-cards .card {
     width: 15rem;
