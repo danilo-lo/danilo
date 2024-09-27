@@ -71,14 +71,14 @@ h2{
 }
 .texto {
     position: absolute;
-    top: 60%;
+    top: 48%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
     font-size: 24px; /* Ajusta el tamaño del texto aquí */
     text-align: center;
     background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente para el texto */
-    padding: 10px; /* Espacio alrededor del texto */
+    padding: 20px; /* Espacio alrededor del texto */
 }
 div li{
 border:solid #000;
@@ -102,7 +102,7 @@ border:solid #000;
 }
 .Contenido{
     padding-top: calc(var(--header-height) + 20px);
-    background-color:  rgb(39, 41, 39); /* color de fondo*/
+    background-color:  #588157; /* color de fondo*/
 }
 table {
     margin-left: 59px;/*mueve el cuadro*/
@@ -110,7 +110,7 @@ table {
     border-collapse: collapse; /* Colapsa los bordes para evitar bordes dobles */
 }
 th, td {
-    background-color: #487256;/* color de la tablas*/
+    background-color: #3A5A40;/* color de la tablas*/
     border: 1px solid #000; /* Borde alrededor de las celdas */
     padding: 1px; /* Espacio dentro de las celdas */
     text-align: left; /* Alineación del texto */
@@ -156,7 +156,7 @@ p{
     border: 2px solid #121312 ;            /* Borde */
     /*border-radius: 10px;                Bordes redondeados*/ 
     box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra */
-    background-color:#f9fcfa;         /* Color de fondo */
+    background-color:rgb(231, 231, 101);         /* Color de fondo */
     color: #333;                       /* Color del texto */
     margin-left:-1px ;
     margin-right: -1px;
@@ -176,8 +176,8 @@ p{
     padding-bottom: 5px;
 }*/
 .margen{ /*para la barra entre el cuadro con la imagen y el cuadro con datos*/
-    padding: 15px;
+    padding: 20px;
     width:1128px;
-    background-color:#f9fcfa;
+    background-color:#3A5A40;
     margin-left: 110px;
 }
