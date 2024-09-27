@@ -81,17 +81,53 @@ header.scrolled .nav-bar a{
 .Contenido{
     background-color: #588157;
 }
+aside{
+    float: left; 
+    margin-left: 10px;
+    height: 90%;
+    background-color: blue;
+}
 .Productos{
     background-color: #344E41;
     padding: 20px;
-    
+    margin: auto;
+    max-width:80%;
+    align-items: center;
     margin-right: 10%;
     margin-left: 10%;
     display: flex;
     gap: 20px;
-    justify-content: center;
+    flex-wrap: wrap;
 }
-aside{
-    float: left;
-    margin-left: 10px;
+.card{
+    flex-grow: 1;
+    width: 10%;
+    
+}
+.card img{
+    height: 400px;
+    object-fit: cover;
+}
+
+button{
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #F4EBE0;
+    border: none;
+    display: flex;
+    position: sticky;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.filter_buttons{
+    align-items: center;
+    gap: 10px;
+    
+}
+button.active{
+    background: #344E41;
+    color: #F4EBE0;
+}
+.card.hide{
+    display: none;
 }
