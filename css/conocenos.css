@@ -74,7 +74,7 @@ section{
 }
 .texto {
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
@@ -125,7 +125,7 @@ th {
     font-size: 14px; /* Tamaño del texto */
     border:solid #000;
     padding: 10px;
-    height: 10px;
+    height: 12px;
 }
 h3{
     text-align: left;
@@ -138,7 +138,7 @@ h3{
 }
 p{
   text-align: left;
-  color: rgb(221, 221, 138);
+  color: rgb(10, 10, 10);
 }
 
 /*para el cuadro interntar solo ajustar el pading y que el texto quede centrano con titulo y imagen*/
@@ -147,17 +147,23 @@ p{
     display: grid;                     /* definimos los tamaños de las columnas y las filas del mismo. Esto significa que,  tendríamos una cuadricula o grid de 4 celdas en total:*/
     grid-template-columns: repeat(4, 1fr); /* 4 columnas iguales */
     gap: 1px;                         /* Espacio entre cuadros. El gap en CSS es un espacio entre elementos flexbox, utilizando propiedades como gap y grid-gap para establecer separaciones visuales personalizadas y limpias. */
-    padding: 110px;                     /* Espaciado interno */
+    padding: 10px;                     /* Espaciado interno */
+    padding-left: 10px;
+    padding-right: 111px;
+    width:110%;
 }
 
 .cuadro2{
-    padding: 0px;                     /* Espaciado interno */
+    padding: 20px;                     /* Espaciado interno */
     box-sizing: border-box;            /* Incluye el padding en el tamaño total. esto me salvo la vida. */
-    border: 2px solid #487256 ;            /* Borde */
-    /*border-radius: 10px;                Bordes redondeados */
+    border: 2px solid #121312 ;            /* Borde */
+    /*border-radius: 10px;                Bordes redondeados*/ 
     box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra */
-    background-color:#487256;         /* Color de fondo */
+    background-color:#f9fcfa;         /* Color de fondo */
     color: #333;                       /* Color del texto */
+    margin-left:-1px ;
+    margin-right: -1px;
+    height: 95%;
 }
 
 .cuadro2 h2{
@@ -168,7 +174,13 @@ p{
 .cuadro2 p{
     text-align: justify;                /* Justificar el contenido */
 }
-.color3{
+/*.color3{
     background-color: #f2f2f2;
-    padding-bottom: 400px;
+    padding-bottom: 5px;
+}*/
+.margen{ /*para la barra entre el cuadro con la imagen y el cuadro con datos*/
+    padding: 15px;
+    width:1128px;
+    background-color:#f9fcfa;
+    margin-left: 110px;
 }
