@@ -11,28 +11,33 @@
     <title>Conocenos</title>
 </head>
 <body style="background-color:#F4EBE0;">
-    <div class="header">
-        <div>
+    <header class="header">
+        <!--<div class="logo">
+            <img src="" alt="Logo de la empresa">
+        </div>!-->
         <h1 class="titulo">
             <a href="inicio.html" >Aberturas Los Portones</a>
         </h1>
-        </div>
         <strong>
-        <div class="nav-bar">
-
-
-            <a href="Tienda.html">Tienda</a>
-            <a href="Info.html">Información</a>
-
-            <a href="conocenos.html">Conocenos</a>
-            <a href="Contacto.html">Contacto</a>
-        
-        </div>
+        <nav class="nav-bar">
+            <a href="Tienda.html" class="BotonNav">Tienda</a>
+            <a href="Info.html" class="BotonNav">Info</a>
+            <a href="conocenos.html" class="BotonNav">Conocenos</a>
+            <a href="Contacto.html" class="BotonNav">Contacto</a>
+        </nav>
         </strong>
-    </div>
+        </header>
+    <main class="Contenido">
+
+    </main>
+    <br>
+    <br>
+    <br>
+    <br>
+    <!--hice estos br porque al cambar el header me rompio todo xd-->
     <div class="Contenido">
         <div class="conocenos">
-        <h2 >conócenos</h2>
+            <div class="TituloInicio"><h1>conócenos.</h1></div>  
     </div>
     <div>
     <section >
@@ -63,7 +68,7 @@
                 <h2>
                     Catalogo de vidrios
                 </h2>
-                <p> ● Float de 4 mm<br>● Pacific 4 mm <br>● Laminado/3+3 <br> ● DVH 4/9/4 <br> (doble vidrio hermetico) <br> <br> En caso de no estar consultar vidirios a conveniencia para su trabajo</p>
+                <p> ● Float de 4 mm<br>● Pacific 4 mm <br>● Laminado/3+3 <br> ● DVH 4/9/4 <br> (doble vidrio hermetico) <br> <br> en caso de no estar consultar vidirios a conveniencia para su trabajo.</p>
             </div>
             <div class="cuadro2">
                 <img src="../img/taladro-electrico.jpg" class="img2">
@@ -85,7 +90,47 @@
             </div>
         </div>
     </th>
-</table>
-    </section>
+</section>
+</table class="margen2">
+    <div class="margen2">
+        <div class="cuadro3">
+        <table class="cuadro3">
+        <h2 class="TituloInicio">
+            receñas de nuestros trabajos
+        </h2>
+        <br>
+        <br>
+        <div class="contenedor3">
+            <div class="cuadro3" style="background-color: gray;">
+                <img src="../img/chat-bot.png" class="img3">
+                <br> 
+                <p>
+                    "Muy conforme con el trabajo realizado. Muy buena terminación. Cumplieron con el plazo de entrega. Embalaje y protección de buena calidad para evitar rayones en el traslado y obra" <br> <br> Nicolas Santos
+                </p>
+            </div>
+            <div class="cuadro3">
+                <img src="../img/chat-bot.png"class="img3">          
+                <p> 
+                    "Excelente!!! Muy buena atención, buen precio y la ventana muy buena calidad!!! Quedó muy prolija y en unos minutos la colocaron!!! Recomendable!!!!" <br> <br> Lilian Luengo
+                </p>
+            </div>
+            <div class="cuadro3">
+                <img src="../img/chat-bot.png" class="img3">
+                <p>
+                    "Excelente servicio. Me cambiaron todo el quincho de casa y quedó genial, muy amables" <br> <br> Gian Franco Scopetta
+                </p>
+            </div>
+        </div>
+    </th>
 </body>
 </html>
+<script>
+    document.addEventListener('scroll',()=>{
+        const header =document.querySelector('header');
+        console.log(header)
+        if(window.scrollY > 0){
+            header.classList.add('scrolled');
+        } else{header.classList.remove('scrolled');
+    }
+    })
+</script>
