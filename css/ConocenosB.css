@@ -123,8 +123,14 @@ header.scrolled .nav-bar a{
     width: 25%;
 }
 .img2{
+<<<<<<< HEAD
     width: 19%;
     height: 12%;
     padding-bottom: 1px;
     margin-left: 1px;
+=======
+    padding-top: 10px;
+    width: 40px;
+    height: 50´x;
+>>>>>>> e4e70c4956294c7a18204e2f7bc293fd876c6656
 }

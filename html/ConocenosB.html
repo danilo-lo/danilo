@@ -78,6 +78,15 @@
             <script src="https://static.elfsight.com/platform/platform.js" async ></script>
     <div class="elfsight-app-03225c29-5ea5-4e57-adff-c5b2d24515e3" data-elfsight-app-lazy style="background-color:#3A5A40; width: 65%; margin: auto;"></div>
         </main>
-        
+        <script>
+            document.addEventListener('scroll',()=>{
+                const header =document.querySelector('header');
+                console.log(header)
+                if(window.scrollY > 0){
+                    header.classList.add('scrolled');
+                } else{header.classList.remove('scrolled');
+            }
+            })
+        </script>
 </body>
 </html>
