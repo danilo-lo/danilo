@@ -19,7 +19,6 @@ header{
     background-color: #588157;
     justify-content: space-between;
     transition:background-color 0.4s ease-in-out;
-    z-index: 99;
 }
 header.scrolled{
     background-color: #344E41;
@@ -149,4 +148,17 @@ header.scrolled #dropdownMenuButton2:hover{
     transform: translateY(calc(100%-4rem));
     transition: transform 0.6s;
     text-align: center;
+}
+/*Intento de hacerlo responsible*/
+.navbar-collapse.show .nav-link {
+    
+    font-size: 20px; /* Cambia el tamaño aquí según lo que necesites */
+}
+.header.active{
+    background-color: #344E41;
+    transition: background-color 0s ease-in-out;
+}
+#navbarNav{
+    padding-left: 3%;
+    background-size: cover; 
 }
