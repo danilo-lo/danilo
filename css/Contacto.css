@@ -65,3 +65,18 @@ body {
     padding-left: 5%;
     padding-right:5% ;
 }
+.maps {
+    margin-left: 700px;
+    background-color: #28a745;
+}
+.Formulario{
+    margin-top: 100px;
+}
+.Enviar{
+    font-family: Consolas, Arial;
+color: blue;
+}
+.ig{
+    margin-left: 1000px;
+    max-width: fit-content;
+}
