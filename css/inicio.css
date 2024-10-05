@@ -10,6 +10,7 @@ body {
 }
 /*Header*/
 header{
+    width: 100%;
     display: flex;
     height:auto;
     margin: 0;
@@ -27,11 +28,13 @@ header.scrolled{
 }
 /*Titulo*/
 .titulo{
-    padding-left: 3vw;
-    padding-top:1vw ;
+    margin-left: 10%;
+    padding-top: 0;
+    margin-top:  3%;
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
     font-style: normal;
+    color: #DAD7CD;
 }
 .titulo a{
     color: #DAD7CD;
@@ -40,7 +43,6 @@ header.scrolled{
 header.scrolled .titulo a{
     color:white;
     transition: color 0.4s ease-in-out;
-    
 }
 /*Barra de navegacion*/
 .nav-bar{
@@ -72,31 +74,6 @@ header.scrolled .nav-bar a{
     color: #F4EBE0;
     background-color: #797572;
 }
-/*#dropdownMenuButton2{
-    background-color: #F4EBE0;
-    font-family: "playfair display",serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 30px;
-    color: #797572;
-    padding: 0;
-    margin: 0;
-    transition: background-color 0.4s ease-in-out;
-}
-#dropdownMenuButton2:hover{
-    background-color:#555250;
-    color: white;
-    transition: background-color 0.4s ease-in-out;
-}
-header.scrolled #dropdownMenuButton2{
-    background-color: #555250;
-    color: white;
-    transition: background-color 0.4s ease-in-out;
-    
-}
-header.scrolled #dropdownMenuButton2:hover{
-    background-color:#797572;
-}*/
 /*Contenido*/
 .Contenido{
     background-color: #588157;
@@ -109,7 +86,7 @@ header.scrolled #dropdownMenuButton2:hover{
     color: #DAD7CD;
 }
 .FondoImagenes{
-    padding: 50px;
+    padding: 20px;
     gap: 10px;
     display: flex;
     background-color: #3A5A40;
@@ -146,11 +123,39 @@ header.scrolled #dropdownMenuButton2:hover{
     transition: transform 0.6s;
     text-align: center;
 }
+.FondoAbout{
+    background-color: #3A5A40;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-top: 10%;
+}
+.ImagenNegocio{
+    width: 80%;
+    border: 2px,solid, black; 
+    justify-content: center;
+    margin: auto;
+    position: relative;
+}
+.ImagenNegocio img{
+    
+    width: 100%;
+    height: 100%;
+}
+.banner-text{
+    position: absolute;
+    top: 35%;
+    width: fit-content;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.514);
+    border-radius: 5px;
+}
+
 /*Intento de hacerlo responsible*/
 .navbar-collapse.show .nav-link {
     font-size: 20px; /* Cambia el tamaño aquí según lo que necesites */
 }
-.navbar-nav
 .header.active{
     background-color: #344E41;
     transition: background-color 0s ease-in-out;
@@ -161,4 +166,16 @@ header.scrolled #dropdownMenuButton2:hover{
 }
 .navbar-nav{
     padding-top: 0;
+}
+.custom-card {
+    height: 700px; /* Altura para pantallas grandes */
+}
+/* Ajustar altura y disposición en pantallas pequeñas */
+@media (max-width: 1024px) {
+    .custom-card {
+        height: 400px; /* Altura más pequeña para pantallas menores a 1024px */
+    }
+    .FondoImagenes .row {
+        flex-direction: column; /* Apilar cards verticalmente */
+    }
 }
