@@ -31,9 +31,7 @@ header.scrolled{
     padding-top:1vw ;
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
-    font-size:xx-large;
     font-style: normal;
-    
 }
 .titulo a{
     color: #DAD7CD;
@@ -106,7 +104,6 @@ header.scrolled #dropdownMenuButton2:hover{
 .TituloInicio{
     text-align: center;
     font-family: "Playfair Display", serif;
-    font-weight: 400;
     font-style: normal;
     font-size: x-large;    
     color: #DAD7CD;
@@ -151,9 +148,9 @@ header.scrolled #dropdownMenuButton2:hover{
 }
 /*Intento de hacerlo responsible*/
 .navbar-collapse.show .nav-link {
-    
     font-size: 20px; /* Cambia el tamaño aquí según lo que necesites */
 }
+.navbar-nav
 .header.active{
     background-color: #344E41;
     transition: background-color 0s ease-in-out;
@@ -161,4 +158,7 @@ header.scrolled #dropdownMenuButton2:hover{
 #navbarNav{
     padding-left: 3%;
     background-size: cover; 
+}
+.navbar-nav{
+    padding-top: 0;
 }
