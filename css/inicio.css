@@ -97,14 +97,6 @@ header.scrolled .nav-bar a{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
-.ReenvioAProductos{
-    text-align: center;
-    font-size: 30px;
-    background-color: #3A5A40;
-    margin-right: 3%;
-    margin-left: 3%;
-    padding-bottom: 30px;
-}
 /*Aca van almacenadas las imagenes del inicio*/
 .boxcontainer{
     display: flex;
@@ -151,6 +143,17 @@ header.scrolled .nav-bar a{
     background-color: rgba(0, 0, 0, 0.514);
     border-radius: 5px;
 }
+.About{
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color: #3A5A40;
+    padding-bottom: 20px;
+}
+.Servicios{
+    background-color: #3A5A40;
+    margin-left: 3%;
+    margin-right: 3%;
+}
 
 /*Intento de hacerlo responsible*/
 .navbar-collapse.show .nav-link {
@@ -179,3 +182,32 @@ header.scrolled .nav-bar a{
         flex-direction: column; /* Apilar cards verticalmente */
     }
 }
+.About .card {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .About .card-img {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+  }
+  
+  .About .card-img-overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para que el texto se lea mejor */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .About .card-title, 
+  .About .card-text {
+    font-size: 1.5vw; /* Tamaño de fuente relativo */
+  }
+  
+  @media (max-width: 768px) {
+    .About .card-title, 
+    .About .card-text {
+      font-size: 2.5vw; /* Ajusta el tamaño del texto para pantallas pequeñas */
+    }
+  }
