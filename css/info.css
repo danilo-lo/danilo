@@ -74,51 +74,28 @@ header.scrolled .nav-bar a{
     color: #F4EBE0;
     background-color: #797572;
 }
-/*contenido*/
-.Contenido{
-    background-color: #588157;
-    }
-.fondoContenido{
+.navbar-collapse.show .nav-link {
+    font-size: 20px; /* Cambia el tamaño aquí según lo que necesites */
+}
+.header.active{
     background-color: #344E41;
-    margin-right: 5%;
-    margin-left: 5% ;
-    padding: 10px;
-    width: 90%;
-    height: 80%;
-
+    transition: background-color 0s ease-in-out;
 }
-/*aca empieza el texto*/
-.space{
-    display: flex;
-    height: 100px;
-    margin: 0;
-    padding: 0;
-    position: sticky;
-    top:0;
-gap: 50px;
+#navbarNav{
+    padding-left: 3%;
+    background-size: cover; 
 }
-.galeria {
-    display: flex;
-    gap: 10px;
+.navbar-nav{
+    padding-top: 0;
 }
-
-.galeria img {
-    max-width: 30%;
-    height: auto;
-justify-content: center;
+/*Contenido*/
+.contenido{
+    background-color: #344E41;
+    width: fit-content;
+    margin: auto;
+    padding: 50px;
+    border-radius: 10px;
 }
-.galeria2 {
-    display: flex;
-    gap: 1px;
-    width: 2px;
-    height: 120px;
- 
-}
-.fondoProducto{
-    justify-content: space-between;
-    display: flex;
-
-}
-.space img{
-gap: 500px;
+@media screen {
+    
 }
