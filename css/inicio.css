@@ -211,3 +211,7 @@ header.scrolled .nav-bar a{
       font-size: 2.5vw; /* Ajusta el tamaño del texto para pantallas pequeñas */
     }
   }
+    .fotitos{
+    height: 200px;
+    width: 200px;
+    }
