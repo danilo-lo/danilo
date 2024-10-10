@@ -16,22 +16,32 @@
     <title>Proveedores</title>
 </head>
 <body style="background-color:#588157 ;">
-    <header class="header">
-        <!--<div class="logo">
-            <img src="" alt="Logo de la empresa">
-        </div>!-->
-        <h1 class="titulo">
-            <a href="inicio.html" >Aberturas Los Portones</a>
-        </h1>
-        <strong>
-        <nav class="nav-bar">
-            <a href="Tienda.html" class="BotonNav">Tienda</a>
-            <a href="Info.html" class="BotonNav">Info</a>
-            <a href="conocenos.html" class="BotonNav">Conocenos</a>
-            <a href="Contacto.html" class="BotonNav">Contacto</a>
-        </nav>
-        </strong>
-        </header>
+  <header class="header navbar navbar-expand-lg navbar-light " style="position: sticky; z-index: 99;">
+    <!-- Título-->
+    <a href="./inicio.html" class="navbar-brand d-none d-md-block">
+        <h1 class="titulo">Aberturas Los Portones</h1>
+    </a>
+    <!--Logo En pantallas Pequeñas-->
+    <a href="./inicio.html" class="navbar-brand d-md-none" style="margin-left: 3%;">
+        <img src="/img/Logosinfondo.png" alt="Logo" class="img-fluid" style="max-height: 80px ;">
+    </a>
+    <!-- Botón de toggle para pantallas pequeñas -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="margin-right: 3%;">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navegación -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto nav-bar">
+            <li class="nav-item">
+                <a href="Tienda.html" class="nav-link">Tienda</a>
+            </li>
+            <li class="nav-item">
+                <a href="Info.html" class="nav-link">Info</a>
+            </li>
+        </ul>
+    </div>
+</header>
     <main class="Contenido">
       <div class="fondoContenido"> 
         <div class="fondoProducto">
