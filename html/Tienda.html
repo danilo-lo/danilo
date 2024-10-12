@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="/html/producto.js"></script>
+    <script src="/html/producto.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
@@ -63,7 +63,7 @@
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
             <!-- Tarjeta 1 -->
             <div class="col">
-                <div class="card">
+                <div class="card" data-name="ventanas">
                     <img src="/img/YSY-A.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Ysya</h5>
@@ -73,7 +73,7 @@
             </div>
             <!-- Tarjeta 2 -->
             <div class="col">
-                <div class="card">
+                <div class="card"  data-name="ventanas">
                     <img src="/img/YSY-A.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Ysy 2</h5>
@@ -83,7 +83,7 @@
             </div>
             <!-- Tarjeta 3 -->
             <div class="col">
-                <div class="card">
+                <div class="card" data-name="mosquiteros">
                     <img src="/img/duko.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Duko</h5>
@@ -93,7 +93,7 @@
             </div>
             <!-- Tarjeta 4 -->
             <div class="col">
-                <div class="card">
+                <div class="card" data-name="mosquiteros">
                     <img src="/img/duko.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Duko 2</h5>
@@ -103,7 +103,7 @@
             </div>
             <!-- Tarjeta 5 -->
             <div class="col">
-                <div class="card">
+                <div class="card" data-name="puertas">
                     <img src="/img/tyler.webp" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Anuel</h5>
@@ -113,7 +113,7 @@
             </div>
             <!-- Tarjeta 6 -->
             <div class="col">
-                <div class="card">
+                <div class="card" data-name="puertas">
                     <img src="/img/tyler.webp" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Anuel 2</h5>
@@ -144,6 +144,5 @@
             header.classList.toggle('active');
         });
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>

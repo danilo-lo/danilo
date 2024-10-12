@@ -1,5 +1,5 @@
-const filterButtons= document.querySelectorAll(".filter_buttons button")
-const filterableCards= document.querySelectorAll(".Productos .card")
+const filterButtons= document.querySelectorAll(".btn-group button")
+const filterableCards= document.querySelectorAll(".col .card")
 
 const filterCards= e => {
     document.querySelector(".active").classList.remove("active");
