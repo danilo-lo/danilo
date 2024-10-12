@@ -121,7 +121,6 @@ button{
     border: none;
     display: flex;
     position: sticky;
-    width: 100%;
     flex-wrap: wrap;
 }
 .filter_buttons{
