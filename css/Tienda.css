@@ -124,12 +124,15 @@ button{
 .navbar-nav{
     padding-top: 0;
 }
-.card{
-    padding-left: 0;
-    padding-right: 0;
-}
 .card img{
     width: 100%;
     height: 100%;
     background-image:cover ;
+}
+.TituloInicio{
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-style: normal;
+    font-size: 2rem;    
+    color: #DAD7CD;
 }

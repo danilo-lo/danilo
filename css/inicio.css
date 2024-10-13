@@ -80,9 +80,9 @@ header.scrolled .nav-bar a{
     }
 .TituloInicio{
     text-align: center;
-    font-family: "Playfair Display", serif;
+    font-family: "Oswald", sans-serif;
     font-style: normal;
-    font-size: x-large;    
+    font-size: 2rem;    
     color: #DAD7CD;
 }
 .FondoImagenes{
@@ -154,7 +154,16 @@ header.scrolled .nav-bar a{
     margin-left: 3%;
     margin-right: 3%;
 }
+.card-text{
+text-align: center;
+font-family: "Oswald", sans-serif;
+font-size: 1.6rem;
+color: white;
+}
 
+.card-body{
+    background-color: #344E41;
+}
 /*Intento de hacerlo responsible*/
 .navbar-collapse.show .nav-link {
     font-size: 20px; /* Cambia el tamaño aquí según lo que necesites */
@@ -173,6 +182,7 @@ header.scrolled .nav-bar a{
 .custom-card {
     height: 700px; /* Altura para pantallas grandes */
 }
+
 /* Ajustar altura y disposición en pantallas pequeñas */
 @media (max-width: 1024px) {
     .custom-card {
