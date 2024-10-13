@@ -136,3 +136,8 @@ button{
     font-size: 2rem;    
     color: #DAD7CD;
 }
+footer a{
+    text-decoration: none;
+    color: white;
+    text-decoration: underline;
+  }
