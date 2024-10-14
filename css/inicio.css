@@ -210,19 +210,19 @@ color: white;
     justify-content: center;
   }
   
-  .About .card-title, 
-  .About .card-text {
-    font-size: 1.5vw; /* Tamaño de fuente relativo */
-  }
-  
   @media (max-width: 768px) {
     .About .card-title, 
     .About .card-text {
-      font-size: 2.5vw; /* Ajusta el tamaño del texto para pantallas pequeñas */
+      font-size: 1rem; /* Ajusta el tamaño del texto para pantallas pequeñas */
     }
   }
   footer a{
     text-decoration: none;
     color: white;
     text-decoration: underline;
+  }
+  @media (max-width: 576px) {
+    .card-img {
+      min-height: 550px; /* Altura de imagen en pantallas pequeñas */
+    }
   }
