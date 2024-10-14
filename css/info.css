@@ -89,6 +89,13 @@ header.scrolled .nav-bar a{
     padding-top: 0;
 }
 /*Contenido*/
+.TituloInicio{
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-style: normal;
+    font-size: 2rem;    
+    color: #DAD7CD;
+}
 .contenido{
     background-color: #344E41;
     width: fit-content;
@@ -101,6 +108,4 @@ footer a{
     color: white;
     text-decoration: underline;
   }
-@media screen {
-    
-}
+
