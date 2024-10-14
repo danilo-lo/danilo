@@ -126,10 +126,20 @@ footer a{
     color: white;
     text-decoration: underline;
   }
-.card{
+  .card{
+    border:none;
+  }
+  .card-text{
     text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-size: 1.6rem;
+    color: white;
+    }
     
-}
+.card-body{
+        background-color: #344E41;
+        max-height: max-content;
+    }
 /*responsive pe*/
 .navbar-collapse.show .nav-link {
     font-size: 20px; /* Cambia el tamaño aquí según lo que necesites */
