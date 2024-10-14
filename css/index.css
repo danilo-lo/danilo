@@ -186,7 +186,9 @@ color: white;
 .custom-card {
     height: 700px; /* Altura para pantallas grandes */
 }
-
+.navbar-toggler-icon {
+    filter: brightness(0) invert(1);
+}
 /* Ajustar altura y disposición en pantallas pequeñas */
 @media (max-width: 1024px) {
     .custom-card {

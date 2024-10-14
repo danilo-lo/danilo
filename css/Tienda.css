@@ -142,6 +142,9 @@ footer a{
         max-height: m-content;
     }
 
+    .navbar-toggler-icon {
+        filter: brightness(0) invert(1);
+    }
 /*responsive pe*/
 .navbar-collapse.show .nav-link {
     font-size: 20px; /* Cambia el tamaño aquí según lo que necesites */
