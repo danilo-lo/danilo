@@ -128,6 +128,7 @@ footer a{
   }
   .card{
     border:none;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
   }
   .card-text{
     text-align: center;
@@ -138,8 +139,9 @@ footer a{
     
 .card-body{
         background-color: #344E41;
-        max-height: max-content;
+        max-height: m-content;
     }
+
 /*responsive pe*/
 .navbar-collapse.show .nav-link {
     font-size: 20px; /* Cambia el tamaño aquí según lo que necesites */

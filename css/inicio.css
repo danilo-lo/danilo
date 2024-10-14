@@ -164,6 +164,10 @@ color: white;
 .card-body{
     background-color: #344E41;
 }
+.card{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+
+}
 /*Intento de hacerlo responsible*/
 .navbar-collapse.show .nav-link {
     font-size: 20px; /* Cambia el tamaño aquí según lo que necesites */
