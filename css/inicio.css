@@ -210,11 +210,6 @@ color: white;
     justify-content: center;
   }
   
-  .About .card-title, 
-  .About .card-text {
-    font-size: 1rem; /* Tamaño de fuente relativo */
-  }
-  
   @media (max-width: 768px) {
     .About .card-title, 
     .About .card-text {
@@ -227,27 +222,7 @@ color: white;
     text-decoration: underline;
   }
   @media (max-width: 576px) {
-    .card-img-overlay {
-      padding: 10px;
-      font-size: 14px; /* Reducir el tamaño de fuente en pantallas pequeñas */
-    }
-    .card-title {
-      font-size: 1rem; /* Ajustar el tamaño del título */
-    }
-  }
-  
-  /* Para mejorar la legibilidad, agrega un fondo oscuro semi-transparente */
-  .card-img-overlay {
-    background-color: rgba(0, 0, 0, 0.6); /* Fondo oscuro semi-transparente */
-    overflow: auto; /* Permitir scroll si es necesario */
-  }
-  .card-img {
-    min-height: 400px; /* Ajusta esta altura según tus necesidades */
-    object-fit: cover; /* Esto asegura que la imagen no se deforme */
-  }
-
-  @media (max-width: 576px) {
     .card-img {
-      min-height: 300px; /* Reduce el tamaño de la imagen en pantallas pequeñas */
+      min-height: 550px; /* Altura de imagen en pantallas pequeñas */
     }
   }
